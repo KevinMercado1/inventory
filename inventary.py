@@ -21,7 +21,7 @@ def add_item():
         except ValueError:  
          print("Please enter a correct value ")
 
-  
+  # Here I placed a while loop to iterate through the price and ensure it is greater than 0.
     while i:
             try:
                 price =  float(input(f"Enter the price of items: "))
